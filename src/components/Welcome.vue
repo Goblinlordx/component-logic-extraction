@@ -1,9 +1,6 @@
 <template>
   <div class="hello">
     <h1>Component Logic Extraction example</h1>
-    <div>
-      <h5>How can we conceptualize UI?</h5>
-    </div>
   </div>
 </template>
 
