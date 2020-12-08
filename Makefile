@@ -1,4 +1,4 @@
-default: dockerbuild
+default: up
 
 dockerbuild:
 	docker-compose build
