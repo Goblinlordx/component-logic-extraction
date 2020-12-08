@@ -17,7 +17,7 @@ shell:
 	docker-compose run app sh
 
 build:
-	docker-compose run app yarn build
+	docker-compose run app npm run build
 
 test:
-	docker-compose run app yarn test
+	docker-compose run app npm run test
