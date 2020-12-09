@@ -33,7 +33,7 @@
 </template>
 
 <script>
-import Exmaple6A from "../models/Example6A";
+import Exmaple6A from "./Example6A";
 
 export default {
   name: "Step6",

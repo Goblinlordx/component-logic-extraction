@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Exmaple6B from "../models/Example6B";
+import Exmaple6B from "./Example6B";
 
 export default {
   name: "Step6",

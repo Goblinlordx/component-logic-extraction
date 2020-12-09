@@ -6,13 +6,18 @@
       <pre>{{ JSON.stringify(model.data, null, 2) }}</pre>
       <div>Can Access Something: {{ ACCESS("something") }}</div>
       <label for="a">a: </label>
-      <input id="a" name="a" :value="model.data.a" @input="input('a', $event)" />
+      <input
+        id="a"
+        name="a"
+        :value="model.data.a"
+        @input="input('a', $event)"
+      />
     </div>
   </div>
 </template>
 
 <script>
-import Exmaple2 from "../models/Example2";
+import Exmaple2 from "./Example2";
 
 export default {
   name: "Step2",

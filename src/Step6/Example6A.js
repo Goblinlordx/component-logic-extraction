@@ -1,4 +1,4 @@
-import VisibleModel from "./VisibleModel";
+import VisibleModel from "../libs/VisibleModel";
 
 class Example6A extends VisibleModel {
   get fields() {

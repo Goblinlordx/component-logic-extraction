@@ -7,22 +7,37 @@
       <div>Can Access Something: {{ ACCESS("something") }}</div>
       <template v-if="model.fieldVisible('a')">
         <label for="a">a: </label>
-        <input id="a" name="a" :value="model.data.a" @input="input('a', $event)" />
+        <input
+          id="a"
+          name="a"
+          :value="model.data.a"
+          @input="input('a', $event)"
+        />
       </template>
       <template v-if="model.fieldVisible('b')">
         <label for="b">b: </label>
-        <input id="b" name="b" :value="model.data.b" @input="input('b', $event)" />
+        <input
+          id="b"
+          name="b"
+          :value="model.data.b"
+          @input="input('b', $event)"
+        />
       </template>
       <template v-if="model.fieldVisible('c')">
         <label for="c">c: </label>
-        <input id="c" name="c" :value="model.data.c" @input="input('c', $event)" />
+        <input
+          id="c"
+          name="c"
+          :value="model.data.c"
+          @input="input('c', $event)"
+        />
       </template>
     </div>
   </div>
 </template>
 
 <script>
-import Exmaple4 from "../models/Example4";
+import Exmaple4 from "./Example4";
 
 export default {
   name: "Step4",

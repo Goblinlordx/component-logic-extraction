@@ -1,4 +1,4 @@
-import Model from "./VisibleModel";
+import Model from "../libs/VisibleModel";
 
 class Example5Access extends Model {
   get fields() {

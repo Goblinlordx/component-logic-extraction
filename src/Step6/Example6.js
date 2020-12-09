@@ -1,4 +1,4 @@
-import Model from "./Model";
+import Model from "../libs/Model";
 import Example6A from "./Example6A";
 import Example6B from "./Example6B";
 

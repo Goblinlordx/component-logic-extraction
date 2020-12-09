@@ -1,15 +1,14 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import App from "./App.vue";
-import Welcome from "./components/Welcome.vue";
-import Step1 from "./components/Step1.vue";
-import Step2 from "./components/Step2.vue";
-import Step3 from "./components/Step3.vue";
-import Step4 from "./components/Step4.vue";
-import Step5 from "./components/Step5.vue";
-import Step6 from "./components/Step6.vue";
-import Step7 from "./components/Step7.vue";
-
+import Welcome from "./Welcome/Welcome.vue";
+import Step1 from "./Step1/Step1.vue";
+import Step2 from "./Step2/Step2.vue";
+import Step3 from "./Step3/Step3.vue";
+import Step4 from "./Step4/Step4.vue";
+import Step5 from "./Step5/Step5.vue";
+import Step6 from "./Step6/Step6.vue";
+import Step7 from "./Step7/Step7.vue";
 
 const routes = [
   { path: "/step/1", component: Step1 },

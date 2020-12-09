@@ -1,4 +1,4 @@
-import Model from "./Model";
+import Model from "../libs/Model";
 
 class Example2 extends Model {
   get fields() {

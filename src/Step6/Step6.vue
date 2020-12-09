@@ -10,7 +10,7 @@
 <script>
 import Step6A from "./Step6A.vue";
 import Step6B from "./Step6B.vue";
-import Exmaple6 from "../models/Example6";
+import Exmaple6 from "./Example6";
 
 export default {
   name: "Step6",
