@@ -1,6 +1,7 @@
 <template>
-  <div class="hello">
+  <div>
     <h1>Step 5</h1>
+    <h1>Multiple</h1>
     <div class="data">
       <pre>{{ JSON.stringify(model.visible.data, null, 2) }}</pre>
       <div>

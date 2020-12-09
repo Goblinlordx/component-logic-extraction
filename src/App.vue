@@ -7,6 +7,8 @@
       <li><router-link to="/step/3">Step 3</router-link></li>
       <li><router-link to="/step/4">Step 4</router-link></li>
       <li><router-link to="/step/5">Step 5</router-link></li>
+      <li><router-link to="/step/6">Step 6</router-link></li>
+      <li><router-link to="/step/7">Step 7</router-link></li>
     </ul>
     <router-view/>
   </div>

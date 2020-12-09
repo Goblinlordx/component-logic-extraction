@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div>
     <h1>Component Logic Extraction example</h1>
   </div>
 </template>

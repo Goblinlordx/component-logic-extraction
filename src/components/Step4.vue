@@ -1,6 +1,7 @@
 <template>
-  <div class="hello">
+  <div>
     <h1>Step 4</h1>
+    <h3>Extension</h3>
     <div class="data">
       <pre>{{ JSON.stringify(model.visible.data, null, 2) }}</pre>
       <div>Can Access Something: {{ ACCESS("something") }}</div>

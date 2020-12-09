@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div>
     <h1>Step 1</h1>
     <div class="data">
       <pre>{{ JSON.stringify(model, null, 2) }}</pre>

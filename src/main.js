@@ -7,6 +7,8 @@ import Step2 from "./components/Step2.vue";
 import Step3 from "./components/Step3.vue";
 import Step4 from "./components/Step4.vue";
 import Step5 from "./components/Step5.vue";
+import Step6 from "./components/Step6.vue";
+import Step7 from "./components/Step7.vue";
 
 
 const routes = [
@@ -15,6 +17,8 @@ const routes = [
   { path: "/step/3", component: Step3 },
   { path: "/step/4", component: Step4 },
   { path: "/step/5", component: Step5 },
+  { path: "/step/6", component: Step6 },
+  { path: "/step/7", component: Step7 },
   { path: "/*", component: Welcome },
 ];
 
