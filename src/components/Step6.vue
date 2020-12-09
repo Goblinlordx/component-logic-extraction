@@ -21,7 +21,6 @@ export default {
   },
   methods: {
     update(v) {
-      console.log(v)
       this.model.update(v);
     }
   },
